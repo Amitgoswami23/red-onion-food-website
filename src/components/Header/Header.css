@@ -1,0 +1,23 @@
+.btn-register{
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: none;
+}
+
+.btn-register:hover{
+    background-color: #fff;
+    border:none;
+    color: black;
+    font-weight: bold;
+}
+
+#input-field{
+    border: none;
+    width: 400px;
+    text-align: center;
+}
+
+.shopping-cart{
+    margin-top: 10px;
+}

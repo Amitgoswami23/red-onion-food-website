@@ -1,0 +1,13 @@
+.all-button{
+    justify-content: center;
+}
+
+.btn-group__item{
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.card-des{
+    margin-bottom: 150px;
+}

@@ -1,0 +1,17 @@
+.description{
+    margin: 0 200px;
+}
+
+.card-all-des{
+    border: none;
+}
+.about-card-image{
+    height: 300px;
+}
+
+.card-title i{
+    background-color: red;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}

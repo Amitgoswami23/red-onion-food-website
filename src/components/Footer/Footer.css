@@ -1,0 +1,12 @@
+footer{
+    padding: 50px;
+    background-color: black;
+}
+
+footer img{
+    height: 60px;
+}
+
+.footer-des p{
+    color: white;
+}
