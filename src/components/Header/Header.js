@@ -25,7 +25,9 @@ const Header = () => {
                                 <NavLink to="/login"><button className="btn-register">Login</button></NavLink>
                                 {/* <Link to="/login">Login</Link> */}
                                 {/* <Link to="/login"><button>Login</button></Link> */}
-                                <Button variant="danger">Register</Button>
+                                <NavLink to="/register" className="register-button">
+                                    <Button variant="danger">Register</Button>
+                                </NavLink>
                             </Nav>
                         </Navbar.Collapse>
                 </Container>

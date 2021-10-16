@@ -1,24 +1,24 @@
-.login-page{
+.register-page{
     background: url("../../images/bannerbackground.png");
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
 }
 
-.login-form{
+.register-form{
     margin: 0 350px;
     /* border: 1px solid black; */
     padding: 80px 50px 120px 50px;
     background-color: #fff;
 }
 
-.login-form h2{
+.register-form h2{
     margin-bottom: 30px;
 }
 
-.login-button{
+.register-button-form{
     padding: 10px 130px;
 }
 
@@ -28,14 +28,14 @@
 
 
 @media only screen and (max-width:788px){
-    .login-form{
+    .register-form{
         margin: 0;
         /* border: 1px solid black; */
         padding: 80px 50px 120px 50px;
         background-color: #fff;
     }
 
-    .login-button{
+    .register-button-form{
         padding: 10px 100px;
     }
 }

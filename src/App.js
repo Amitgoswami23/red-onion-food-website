@@ -7,6 +7,7 @@ import AboutUs from './components/About/AboutUs';
 import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 function App() {
   return (
@@ -14,16 +15,23 @@ function App() {
       <Router>
           <Header />
           <Switch>
+
               <Route exact path="/">
                 <Home />
                 <MenuCard />
                 <AboutUs />
+                <Footer />
               </Route>
+
               <Route path="/login">
                 <Login />
+              </Route> 
+
+              <Route path="/register">
+                <Register />
               </Route>   
           </Switch>
-          <Footer />
+          
       </Router>
     </div>
   );
